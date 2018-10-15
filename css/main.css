@@ -1,5 +1,13 @@
-.carousel-inner img {
-    width: 100%;
-    height: 500px;
+
+.logo img {
+    max-width: 150px;
+    margin: 10px;
 }
 
+#slide {
+    margin-bottom: 30px;
+}
+
+.title {
+    color: #d6b161;
+}
