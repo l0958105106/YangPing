@@ -1,11 +1,18 @@
+body {
+    background-color: #343b40;
+}
 
-
+.intro {
+    margin-bottom: 30px;
+}
 .title {
     color: #d6b161;
     font-size: 25px;
 }
 
-
+hr {
+    background-color: white;
+}
 
 /* header */
 header {
@@ -19,15 +26,37 @@ header {
 
 /* slide */
 #slide {
+    margin-bottom: 60px;
+}
+
+
+/* recent pruduct */
+.recent-product {
     margin-bottom: 30px;
 }
 
-/* lightbox */
-
-.products a {
-    display: inline-block;
+.thumbnail {
+    position: relative;
 }
 
+.products .cover {
+    position: absolute;
+    background: rgba(255,255,255,0.9);
+    border: 20px solid rgba(0,0,0,0.1);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.products .cover:hover {
+    opacity: 1;
+}
+
+/* lightbox */
 .modal-container {
     display: none;
     position: fixed;
@@ -46,6 +75,27 @@ header {
 }
 
 .modal img {
+    position: relative;
     width: 100%;
-    transform: translate( 0, 150%);
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+/* chef */
+.chef {
+    padding-bottom: 15px;
+	background: url(http://picsum.photos/1920/1080/);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+}
+.chef img {
+    max-width: 300px;
+    height: 300px;
+    margin: 15px;
+}
+
+.chef .intro{
+    padding-top: 30px;
 }
