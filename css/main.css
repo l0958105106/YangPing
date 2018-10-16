@@ -8,7 +8,7 @@
 
 
 /* header */
-header ,nav {
+header {
     height: 80px;
 }
 
@@ -47,6 +47,5 @@ header ,nav {
 
 .modal img {
     width: 100%;
-    height: 0 auto;
     transform: translate( 0, 150%);
 }
