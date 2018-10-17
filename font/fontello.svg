@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2018 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="search" unicode="&#xe800;" d="M0 8l186 186 2 0q-67 105-67 228 0 178 125 303t303 125 303-125 125-303-125-302-303-125q-106 0-197 48l-194-193z m311 415q0-98 70-168t168-69 168 69 70 168-70 168-168 70-168-70-70-168z" horiz-adv-x="977" />
+
+<glyph glyph-name="home" unicode="&#xe801;" d="M0-150l0 649 453 351 453-351 0-649-312 0 0 391-281 0 0-391-313 0z" horiz-adv-x="906" />
+
+<glyph glyph-name="mail" unicode="&#xe802;" d="M0 28v644q0 8 2 18l460-460q39-39 95-39 55 0 94 39l460 460q2-9 2-18v-644q0-37-26-62t-62-26h-937q-36 0-62 26t-26 62z m63 728q13 4 25 4h937q12 0 25-4l-463-463q-13-12-31-12t-30 12z" horiz-adv-x="1113.3" />
+
+<glyph glyph-name="phone" unicode="&#xe803;" d="M0 615q0 50 28 76l138 138q45 37 77-13l113-211q18-39-14-71l-51-52q-5-6-5-14 25-98 132-195l31-30t36-34 34-26 41-25 40-14q20-6 27 2l61 60q39 30 72 12l203-121q22-14 25-37t-13-39l-141-139q-27-27-74-27-140 4-318 121-258 185-375 406-72 151-67 233z" horiz-adv-x="988" />
+
+<glyph glyph-name="print" unicode="&#xe804;" d="M66 526q-26 0-22 22 4 10 12 14 2 0 49 17t93 32 58 15l44 0 0 150 380 0 0-150 46 0q12 0 57-15t92-32 49-17q18-8 12-26-4-10-20-10l-850 0z m860-56q20 0 37-19t17-41l0-174q0-22-17-41t-37-19l-100 0 44-250-760 0 44 250-98 0q-20 0-38 19t-18 41l0 174q0 22 18 41t38 19l870 0z m-716-444l560 0-70 324-420 0z" horiz-adv-x="980" />
+</font>
+</defs>
+</svg>
