@@ -27,7 +27,11 @@ $(document).ready(function () {
           if (scroll > 0) {
             $('.navbar').addClass('change');
 <<<<<<< HEAD
+<<<<<<< HEAD
             $('#goTop').stop().fadeIn('fast');
+=======
+            $('#goTop').stop().fadeIn();
+>>>>>>> parent of dcea9c4... navbar
 =======
             $('#goTop').stop().fadeIn();
 >>>>>>> parent of dcea9c4... navbar
