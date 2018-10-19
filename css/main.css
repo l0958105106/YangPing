@@ -18,10 +18,8 @@ hr {
 
 
 /* header */
-
-header .navbar {
-    z-index: 98;
-    min-height: 80px;
+header {
+    height: 40px;
 }
 
 .logo img {
@@ -30,6 +28,11 @@ header .navbar {
 
 .navbar {
     background-color: #343b40;
+    z-index: 98;
+} 
+
+ .navbar .collapse {
+    height: auto;
 } 
 
 header, .navbar, .navbar ul, .navbar-toggler, .logo img {
@@ -38,6 +41,10 @@ header, .navbar, .navbar ul, .navbar-toggler, .logo img {
 
 header .change {
     background: #000;
+}
+
+.navbar.change {
+    min-height: 40px;
 }
 
 .navbar.change .navbar-toggler-icon {
@@ -65,6 +72,7 @@ header .change {
 
 /* recent pruduct */
 .recent-product {
+    margin: 0;
     padding-top: 80px;
 }
 
