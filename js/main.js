@@ -26,7 +26,11 @@ $(document).ready(function () {
           var scroll = $(this).scrollTop();
           if (scroll > 0) {
             $('.navbar').addClass('change');
+<<<<<<< HEAD
             $('#goTop').stop().fadeIn('fast');
+=======
+            $('#goTop').stop().fadeIn();
+>>>>>>> parent of dcea9c4... navbar
           } else if (scroll <= 0) {
             $('.navbar').removeClass('change');
             $('#goTop').stop().fadeOut('fast');
@@ -36,7 +40,7 @@ $(document).ready(function () {
         $("#goTop").click(function() {
           $('body, html').animate({
             scrollTop: 0
-          }, 400 );
+          }, 400);
         });
       });
 
