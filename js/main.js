@@ -26,10 +26,10 @@ $(document).ready(function () {
           var scroll = $(this).scrollTop();
           if (scroll > 0) {
             $('.navbar').addClass('change');
-            $('#goTop').fadeIn();
+            $('#goTop').stop().fadeIn('fast');
           } else if (scroll <= 0) {
             $('.navbar').removeClass('change');
-            $('#goTop').stop().fadeOut();
+            $('#goTop').stop().fadeOut('fast');
           }
         });
 
