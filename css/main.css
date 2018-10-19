@@ -143,6 +143,7 @@ header .change {
 .chef {
     position: relative;
     padding-top: 80px;
+    padding-bottom: 30px;
     -webkit-background-size: cover;
 	background-size: cover;
 	background-position: 50% 50%;

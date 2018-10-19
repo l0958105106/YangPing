@@ -23,10 +23,11 @@ $(document).ready(function () {
     $(function() {
       
         $(window).scroll(function() {
-          if ($(this).scrollTop() != 0) {
+          var scroll = $(this).scrollTop();
+          if (scroll > 0) {
             $('.navbar').addClass('change');
             $('#goTop').stop().fadeIn();
-          } else {
+          } else if (scroll <= 0) {
             $('.navbar').removeClass('change');
             $('#goTop').stop().fadeOut();
           }
