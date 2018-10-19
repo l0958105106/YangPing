@@ -41,6 +41,7 @@ $(document).ready(function () {
 
       $(".navbar").find("a").click(function(e) {
         e.preventDefault();
+        $(".navbar-collapse").removeClass('show');
         var section = $(this).attr("href");
         $("html, body").animate({
             scrollTop: $(section).offset().top
