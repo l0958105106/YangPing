@@ -35,7 +35,16 @@ $(document).ready(function () {
         $("#goTop").click(function() {
           $('body, html').animate({
             scrollTop: 0
-          }, 250);
+          }, 400);
         });
       });
+
+      $(".navbar").find("a").click(function(e) {
+        e.preventDefault();
+        var section = $(this).attr("href");
+        $("html, body").animate({
+            scrollTop: $(section).offset().top
+        });
+    });
+
 });
