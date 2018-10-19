@@ -13,9 +13,9 @@
     <title>延平小館</title>
 </head>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+<body data-spy="scroll" data-target=".navbar" data-offset="80">
+    <header id="home">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
             <div class="container">
                 <div class="logo">
                     <img src="img/logo.png" alt="logo">
@@ -27,20 +27,20 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto text-center">
-                        <li class="nav-item mr-2 active">
-                            <a class="nav-link" href="#">home</a>
+                        <li class="nav-item active">
+                            <a class="nav-link mr-2" href="#home">home</a>
                         </li>
-                        <li class="nav-item mr-2">
-                            <a class="nav-link" href="#">product</a>
+                        <li class="nav-item">
+                            <a class="nav-link mr-2" href="#product">product</a>
                         </li>
-                        <li class="nav-item mr-2">
-                            <a class="nav-link" href="#">chef</a>
+                        <li class="nav-item">
+                            <a class="nav-link mr-2" href="#chef">chef</a>
                         </li>
-                        <li class="nav-item mr-2">
-                            <a class="nav-link" href="#">map</a>
+                        <li class="nav-item">
+                            <a class="nav-link mr-2" href="#contact">contact</a>
                         </li>
-                        <li class="nav-item mr-2">
-                            <a class="nav-link" href="#">contact</a>
+                        <li class="nav-item">
+                            <a class="nav-link mr-2" href="#map">map</a>
                         </li>
                     </ul>
                 </div>
@@ -87,7 +87,7 @@
 
     <div id="content">
 
-        <div class="recent-product text-center">
+        <div id="product" class="recent-product text-center">
             <div class="container clearfix">
                 <div class="intro">
                     <h2 class="title text-uppercase">recent product</h2>
@@ -153,7 +153,7 @@
             </div>
         </div>
 
-        <div class="chef text-center">
+        <div id="chef" class="chef text-center">
             <div class="container">
                 <div class="intro">
                     <h2 class="title text-uppercase">our chef</h2>
@@ -186,7 +186,7 @@
             </div>
         </div>
 
-        <div class="contact">
+        <div id="contact" class="contact">
             <div class="container clearfix">
                 <div class="intro text-center">
                     <h2 class="title text-uppercase">contact</h2>
@@ -230,7 +230,7 @@
             </div>
         </div>
 
-        <div class="map text-center">
+        <div id="map" class="map text-center">
             <div class="container clearfix">
                 <div class="intro">
                     <h2 class="title text-uppercase">map</h2>
@@ -253,6 +253,7 @@
         </div>
     </footer>
 
+    <div id="goTop">^</div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>

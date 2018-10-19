@@ -17,4 +17,25 @@ $(document).ready(function () {
         $(this).fadeOut();
     });
 
+
+
+
+    $(function() {
+      
+        $(window).scroll(function() {
+          if ($(this).scrollTop() != 0) {
+            $('.navbar').addClass('change');
+            $('#goTop').stop().fadeIn();
+          } else {
+            $('.navbar').removeClass('change');
+            $('#goTop').stop().fadeOut();
+          }
+        });
+
+        $("#goTop").click(function() {
+          $('body, html').animate({
+            scrollTop: 0
+          }, 250);
+        });
+      });
 });
