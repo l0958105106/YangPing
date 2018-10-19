@@ -26,7 +26,7 @@ $(document).ready(function () {
           var scroll = $(this).scrollTop();
           if (scroll > 0) {
             $('.navbar').addClass('change');
-            $('#goTop').stop().fadeIn();
+            $('#goTop').fadeIn();
           } else if (scroll <= 0) {
             $('.navbar').removeClass('change');
             $('#goTop').stop().fadeOut();
@@ -36,7 +36,7 @@ $(document).ready(function () {
         $("#goTop").click(function() {
           $('body, html').animate({
             scrollTop: 0
-          }, 400);
+          }, 400 );
         });
       });
 

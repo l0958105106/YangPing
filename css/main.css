@@ -35,7 +35,7 @@ header {
     height: auto;
 } 
 
-header, .navbar, .navbar ul, .navbar-toggler, .logo img {
+header, .navbar, .navbar ul, .navbar-toggler-icon, .navbar-toggler, .logo img {
     transition: all 0.4s ease; 
 }
 
