@@ -78,8 +78,8 @@ header .change {
 
 .thumbnail {
     position: relative;
-    height: 260px;
-    width: 260px;
+    height: 150px;
+    width: 150px;
 }
 .thumbnail img {
 	width: auto;
@@ -100,16 +100,13 @@ header .change {
     transition: opacity 0.3s;
 }
 
-.products .cover > a {
+.products .cover > i {
     position: absolute;
     top: 50%;
     color: black;
     text-decoration: none;
     font-size: 36px;
     transform: translate(-50%, -50%); 
-}
-.products .cover:hover {
-    opacity: 1;
 }
 
 
@@ -224,6 +221,16 @@ header .change {
     .modal img {
         max-width: 80%;
     }
+
+    .thumbnail {
+        height: 260px;
+        width: 260px;
+    }
+
+    .products .cover:hover {
+        opacity: 1;
+    }
+
     #goTop:hover {
         background: #d6b161;
         transition: all .5s;
