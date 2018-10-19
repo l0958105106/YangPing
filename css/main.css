@@ -1,1 +1,249 @@
+<<<<<<< HEAD
 body{background-color:#343b40}.intro{margin-bottom:30px}.title{color:#d6b161;font-size:25px;margin-bottom:30px}hr{background-color:white}header{height:40px}.logo img{max-width:150px}.navbar{background-color:#343b40;z-index:98}.navbar .collapse{height:auto}.logo img,.navbar,.navbar-toggler,.navbar-toggler-icon,.navbar ul,header{-webkit-transition:all 0.4s ease;-o-transition:all 0.4s ease;transition:all 0.4s ease}header .change{background:#000}.navbar.change{min-height:40px}.navbar.change .navbar-toggler-icon{width:20px;height:20px}.navbar.change .navbar-toggler{border-color:rgba(255, 255, 255, 0.6)}.navbar.change img{max-width:90px}.navbar.change ul{font-size:12px}#slide{padding:80px 0}.recent-product{margin:0;padding-top:80px}.thumbnail{position:relative;height:150px;width:150px}.thumbnail img{width:auto;height:auto;max-width:100%;max-height:100%}.products .cover{position:absolute;background:rgba(255, 255, 255, 0.9);border:20px solid rgba(0, 0, 0, 0.1);top:0;left:0;right:0;bottom:0;opacity:0;-webkit-transition:opacity 0.3s;-o-transition:opacity 0.3s;transition:opacity 0.3s}.products .cover>i{position:absolute;top:50%;color:black;text-decoration:none;font-size:36px;-webkit-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);transform:translate(-50%, -50%)}.modal-container{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(0, 0, 0, 0.8);z-index:99}.modal{display:block;margin:0 auto;max-width:90%;height:auto}.modal img{position:relative;max-width:100%;top:50%;-webkit-transform:translate(0, -50%);-ms-transform:translate(0, -50%);transform:translate(0, -50%);border-radius:50px}.chef{position:relative;padding-top:80px;padding-bottom:30px;-webkit-background-size:cover;background-size:cover;background-position:50% 50%;background-attachment:fixed;background-image:url(../img/5.jpg)}.chef img{max-width:100%;height:auto}.chef li{max-width:350px}.contact{padding-top:80px}#map{padding-top:80px}.footer-copyright{background:#000}#goTop{display:none;position:fixed;width:50px;height:50px;bottom:10px;right:10px;background:#fff;color:#333;text-align:center;font-family:verdana;font-size:22px;cursor:pointer;line-height:2.5;border-radius:50%}@media screen and (min-width:700px){.modal img{max-width:80%}.thumbnail{height:260px;width:260px}.products .cover:hover{opacity:1}#goTop:hover{background:#d6b161;-webkit-transition:all .5s;-o-transition:all .5s;transition:all .5s}}@media screen and (min-width:992px){.modal img{max-width:50%}}
+=======
+body {
+    background-color: #343b40;
+}
+
+.intro {
+    margin-bottom: 30px;
+}
+
+.title {
+    color: #d6b161;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+hr {
+    background-color: white;
+}
+
+
+/* header */
+header {
+    height: 40px;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.navbar {
+    background-color: #343b40;
+    z-index: 98;
+} 
+
+ .navbar .collapse {
+    height: auto;
+} 
+
+header, .navbar, .navbar ul, .navbar-toggler, .logo img {
+    transition: all 0.4s ease; 
+}
+
+header .change {
+    background: #000;
+}
+
+.navbar.change {
+    min-height: 40px;
+}
+
+.navbar.change .navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.navbar.change .navbar-toggler {
+    border-color: rgba(255,255,255,.6);
+}
+
+.navbar.change img {
+    max-width: 90px;
+}
+
+.navbar.change ul {
+    font-size: 12px;
+}
+
+/* slide */
+#slide {
+    padding: 80px 0;
+}
+
+
+/* recent pruduct */
+.recent-product {
+    margin: 0;
+    padding-top: 80px;
+}
+
+.thumbnail {
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+.thumbnail img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.products .cover {
+    position: absolute;
+    background: rgba(255,255,255,0.9);
+    border: 20px solid rgba(0,0,0,0.1);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.products .cover > i {
+    position: absolute;
+    top: 50%;
+    color: black;
+    text-decoration: none;
+    font-size: 36px;
+    transform: translate(-50%, -50%); 
+}
+
+
+/* lightbox */
+.modal-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    z-index: 99;
+}
+
+.modal {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+    height: auto;
+
+}
+
+.modal img {
+    position: relative;
+    max-width: 100%;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: 50px;  
+}
+
+
+/* chef */
+.chef {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    -webkit-background-size: cover;
+	background-size: cover;
+	background-position: 50% 50%;
+    background-attachment: fixed;
+    background-image: url(../img/5.jpg);
+}
+
+/* .chef:before{
+    content:"";
+    -webkit-filter: opacity(50%);  
+    filter: opacity(50%); 
+    background-image: url(../img/5.jpg);
+    opacity:0.4; 
+    z-index:-1;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: 50% 50%;
+    background-attachment: fixed;
+    width:100%; 
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+} */
+
+.chef img {
+    max-width: 100%;
+    height: auto;
+}
+
+.chef li {
+    max-width: 350px;
+}
+
+
+/* contact */
+.contact {
+    padding-top: 80px;
+}
+
+/* map */
+#map {
+    padding-top: 80px;
+}
+
+
+/* footer */
+
+.footer-copyright {
+    background: #000;
+}
+
+
+/* gotop */
+
+#goTop {
+    display: none;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 10px;
+    right: 10px;
+    background :#fff;
+    color: #333;
+    text-align: center;
+    font-family: verdana;
+    font-size: 22px;
+    cursor: pointer;
+    line-height: 2.5;
+    border-radius: 50%;
+}
+
+
+
+@media screen and (min-width: 700px) {
+    .modal img {
+        max-width: 80%;
+    }
+
+    .thumbnail {
+        height: 260px;
+        width: 260px;
+    }
+
+    .products .cover:hover {
+        opacity: 1;
+    }
+
+    #goTop:hover {
+        background: #d6b161;
+        transition: all .5s;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .modal img {
+        max-width: 50%;
+    }
+}
+>>>>>>> parent of dcea9c4... navbar
