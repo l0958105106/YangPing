@@ -194,7 +194,7 @@ header .change {
     padding-top: 80px;
 }
 
-input[type=button], input[type=submit], input[type=file], button { 
+input[type=button], input[type=submit], input[type=file], .btn { 
     cursor: pointer; -webkit-appearance: none; 
 } 
 
