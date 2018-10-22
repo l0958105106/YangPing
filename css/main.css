@@ -194,10 +194,6 @@ header .change {
     padding-top: 80px;
 }
 
-.btn.btn-light.float-right {
-    -webkit-appearance: none;
-}
-
 /* map */
 #map {
     padding-top: 80px;
