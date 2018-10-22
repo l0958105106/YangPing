@@ -154,11 +154,9 @@ header .show {
     position: relative;
     padding-top: 80px;
     padding-bottom: 30px;
-    -webkit-background-size: cover;
-	background-size: cover;
-	background-position: 50% 50%;
-    background-attachment: fixed;
-    background-image: url(../img/5.jpg);
+    background-image: url(../img/6.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 /* .chef:before{
@@ -263,6 +261,11 @@ header .show {
 
     .products .cover:hover {
         opacity: 1;
+    }
+
+    .chef {
+        background-attachment: fixed;
+        background-image: url(../img/5.jpg);
     }
 
     #goTop:hover {
