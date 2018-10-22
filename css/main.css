@@ -6,6 +6,7 @@ input {
 
 body {
     background-color: #343b40;
+    -webkit-overflow-scroll: touch;
 }
 
 .intro {

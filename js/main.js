@@ -18,18 +18,14 @@ $(document).ready(function () {
     });
 
 
-
-
-
       
         $(window).scroll(function() {
-          var scroll = $(this).scrollTop();
-          if (scroll > 100) {
+          if ($(this).scrollTop() > 100) {
             $('.navbar').addClass('change');
-            $('#goTop').stop().show('fast');
+            $('#goTop').stop().fadeIn('fast');
           } else {
             $('.navbar').removeClass('change');
-            $('#goTop').stop().hide('fast');
+            $('#goTop').stop().fadeOut('fast');
           }
         });
 
