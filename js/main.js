@@ -20,19 +20,16 @@ $(document).ready(function () {
 
       
         $(window).scroll(function() {
-          if ($(this).scrollTop() > 100) {
-            $('.navbar').addClass('change');
-            $('#goTop').stop().fadeIn('fast');
+          var scroll = $(this).scrollTop()
+          if (scroll > 100) {
+            $('#goTop ,.navbar').addClass('show');
           } else {
-            $('.navbar').removeClass('change');
-            $('#goTop').stop().fadeOut('fast');
+            $('#goTop ,.navbar').removeClass('show');
           }
         });
 
         $("#goTop").click(function() {
-          $('body, html').animate({
-            scrollTop: 0
-          }, 400);
+          $('body, html').animate({scrollTop: 0}, 400);
         });
 
 

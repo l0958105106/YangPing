@@ -46,28 +46,28 @@ header, .navbar, .navbar ul, .navbar-toggler, .logo img {
     transition: all 0.4s ease; 
 }
 
-header .change {
+header .show {
     background: #000;
 }
 
-.navbar.change {
+.navbar.show {
     min-height: 40px;
 }
 
-.navbar.change .navbar-toggler-icon {
+.navbar.show .navbar-toggler-icon {
     width: 20px;
     height: 20px;
 }
 
-.navbar.change .navbar-toggler {
+.navbar.show .navbar-toggler {
     border-color: rgba(255,255,255,.6);
 }
 
-.navbar.change img {
+.navbar.show img {
     max-width: 90px;
 }
 
-.navbar.change ul {
+.navbar.show ul {
     font-size: 12px;
 }
 
@@ -194,8 +194,21 @@ header .change {
     padding-top: 80px;
 }
 
-input[type=button], input[type=submit], input[type=file], .btn { 
-    cursor: pointer; -webkit-appearance: none; 
+.contact-btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
 } 
 
 
@@ -215,7 +228,6 @@ input[type=button], input[type=submit], input[type=file], .btn {
 /* gotop */
 
 #goTop {
-    display: none;
     position: fixed;
     width: 50px;
     height: 50px;
@@ -229,6 +241,12 @@ input[type=button], input[type=submit], input[type=file], .btn {
     cursor: pointer;
     line-height: 2.5;
     border-radius: 50%;
+    opacity: 1;
+    transition: opacity .5s;
+}
+
+#goTop.show {
+    opacity: 0;
 }
 
 
