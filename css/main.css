@@ -241,12 +241,12 @@ header .show {
     cursor: pointer;
     line-height: 2.5;
     border-radius: 50%;
-    opacity: 1;
+    opacity: 0;
     transition: opacity .5s;
 }
 
 #goTop.show {
-    opacity: 0;
+    opacity: 1;
 }
 
 
