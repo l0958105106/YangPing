@@ -2,7 +2,7 @@ input {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    }
+}
 
 body {
     background-color: #343b40;
@@ -192,6 +192,10 @@ header .change {
 /* contact */
 .contact {
     padding-top: 80px;
+}
+
+.btn.btn-light.float-right {
+    -webkit-appearance: none;
 }
 
 /* map */
