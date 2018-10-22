@@ -20,16 +20,16 @@ $(document).ready(function () {
 
 
 
-    $(function() {
+
       
         $(window).scroll(function() {
           var scroll = $(this).scrollTop();
-          if (scroll > 0) {
+          if (scroll > 100) {
             $('.navbar').addClass('change');
-            $('#goTop').stop().fadeIn('fast');
-          } else if (scroll <= 0) {
+            $('#goTop').stop().show('fast');
+          } else {
             $('.navbar').removeClass('change');
-            $('#goTop').stop().fadeOut('fast');
+            $('#goTop').stop().hide('fast');
           }
         });
 
@@ -38,7 +38,7 @@ $(document).ready(function () {
             scrollTop: 0
           }, 400);
         });
-      });
+
 
       $(".navbar").find("a").click(function(e) {
         e.preventDefault();

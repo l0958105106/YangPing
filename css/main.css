@@ -69,6 +69,9 @@ header .change {
     padding: 80px 0;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    z-index: 97;
+}
 
 /* recent pruduct */
 .recent-product {
