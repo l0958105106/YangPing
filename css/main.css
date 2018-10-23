@@ -38,7 +38,7 @@ header {
     z-index: 98;
 } 
 
- .navbar .collapse {
+.navbar .collapse {
     height: auto;
 } 
 
@@ -46,12 +46,13 @@ header, .navbar, .navbar ul, .navbar-toggler, .logo img {
     transition: all 0.4s ease; 
 }
 
-header .show {
+/* header .show {
     background: #000;
-}
+} */
 
 .navbar.show {
     min-height: 40px;
+    background: #000;
 }
 
 .navbar.show .navbar-toggler-icon {
