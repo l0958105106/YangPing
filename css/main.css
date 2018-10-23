@@ -242,6 +242,7 @@ header, .navbar, .navbar ul, .navbar-toggler, .logo img {
     border-radius: 50%;
     opacity: 0;
     transition: opacity .5s;
+    text-decoration: none;
 }
 
 #goTop.show {
@@ -272,7 +273,6 @@ header, .navbar, .navbar ul, .navbar-toggler, .logo img {
     #goTop:hover {
         background: #d6b161;
         transition: all .5s;
-        text-decoration: none;
     }
 }
 
