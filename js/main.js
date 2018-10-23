@@ -32,6 +32,10 @@ $(document).ready(function () {
           $('body, html').animate({scrollTop: 0}, 400);
         });
 
+      $(".contact-btn").click(function(e) {
+        e.preventDefault();
+      });
+
 
       $(".navbar").find("a").click(function(e) {
         e.preventDefault();

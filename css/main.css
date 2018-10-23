@@ -193,7 +193,7 @@ header, .navbar, .navbar ul, .navbar-toggler, .logo img {
     padding-top: 80px;
 }
 
-.contact-btn {
+/* .contact-btn {
     display: inline-block;
     font-weight: 400;
     text-align: center;
@@ -208,7 +208,16 @@ header, .navbar, .navbar ul, .navbar-toggler, .logo img {
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
-} 
+}  */
+
+input[type="submit"] {
+    font-size: 15px;
+    background: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: .25rem;
+    transition: all 0.3s;
+  }
 
 
 /* map */
@@ -273,6 +282,10 @@ header, .navbar, .navbar ul, .navbar-toggler, .logo img {
     #goTop:hover {
         background: #d6b161;
         transition: all .5s;
+    }
+
+    .contact-btn:hover {
+        background: #d6b161;
     }
 }
 
