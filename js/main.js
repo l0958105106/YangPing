@@ -13,7 +13,7 @@ $(document).ready(function () {
         $('.modal-container').fadeIn();
     });
 
-    $(".modal-container").click(function(e){
+    $(".modal-container").click(function(){
         $(this).fadeOut();
     });
 
